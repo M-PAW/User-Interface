@@ -63,11 +63,6 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-
-* {
-	border: 1px solid grey;;
-}
-
 /* Your code starts here! */
 
 /* ==== wrapper ==== */
@@ -82,10 +77,12 @@ h1, h2, h3, h4, h5 {
 /* ==== Header ==== */
 header {
 	margin: 10px 0 5px;
+	position: relative;
 }
 header nav {
 	width: 65%;
 	display: inline-block;
+	margin-right: 65px;
 }
 
 header nav a{
@@ -97,12 +94,13 @@ header nav a{
 
 header img {
 	display: inline-block;
-	margin-top: 30px;
 }
 
 /* ==== Section one ==== */
 .section-one {
-	padding: 55px;
+	margin: 65px;
+	width: 100%;
+	position: relative;
 }
 
 .section-one h1{
@@ -113,14 +111,17 @@ header img {
 
 .section-one div p{
 	text-align: center;
+	font-size: 14px;
 	border: 1px solid black;
 	width: 150px;
-	padding: 5px;
+	height: 30px;
+	padding: 6px;
 	margin: 0 auto;
 }
 
 .section-one div {
 	width:50%;
+	max-height: 300px;
 }
 
 .section-one img {
@@ -135,16 +136,21 @@ header img {
 .section-two {
 	border-top: 1px solid black;
 	border-bottom: 1px solid black;
+	position: relative;
+}
+
+.section-two img{
+	width: 100%;
 }
 
 .two-column {
-	width: 44%;
-	margin: 4% 0 4% 0;
+	width: 47%;
+	margin: 4% 2% 4% 0;
 }
 
 .three-column {
-	width:28%;
-	margin:4% 1% 4% 0;
+	width:29.5%;
+	margin:4% 1.5% 4% 0;
 }
 
 /* ==== Footer ==== */
@@ -160,4 +166,5 @@ footer a{
 footer p {
 	margin: 30px auto 45px;
 	text-align: center;
+	text-transform: ;
 }
