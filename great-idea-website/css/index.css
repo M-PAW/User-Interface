@@ -64,3 +64,107 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+/* ==== wrapper ==== */
+.wrapper {
+	width: 85%;
+	margin: 0 auto;
+}
+.wrapper div {
+	display:inline-block;
+}
+
+/* ==== Header ==== */
+header {
+	margin: 10px 0 5px;
+	position: relative;
+}
+header nav {
+	width: 65%;
+	display: inline-block;
+	margin-right: 65px;
+}
+
+header nav a{
+	margin-left: 6%;
+	display:inline-block;
+	text-decoration: none;
+	color: grey;
+}
+
+header img {
+	display: inline-block;
+}
+
+/* ==== Section one ==== */
+.section-one {
+	margin: 65px;
+	width: 100%;
+	position: relative;
+}
+
+.section-one h1{
+	text-align: center;
+	font-size: 80px;
+	width: 100%;
+}
+
+.section-one div p{
+	text-align: center;
+	font-size: 14px;
+	border: 1px solid black;
+	width: 150px;
+	height: 30px;
+	padding: 6px;
+	margin: 0 auto;
+}
+
+.section-one div {
+	width:50%;
+	max-height: 300px;
+}
+
+.section-one img {
+	width: 50%;
+	display: inline-block;
+	border-radius: 90px;
+	height:350px;
+	width: 350px;
+}
+
+/* ==== Section Two ==== */
+.section-two {
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	position: relative;
+}
+
+.section-two img{
+	width: 100%;
+}
+
+.two-column {
+	width: 47%;
+	margin: 4% 2% 4% 0;
+}
+
+.three-column {
+	width:29.5%;
+	margin:4% 1.5% 4% 0;
+}
+
+/* ==== Footer ==== */
+footer {
+	margin: 30px 0;
+	padding-bottom: 20px;
+}
+
+footer a{
+	line-height: 2.3em;
+}
+
+footer p {
+	margin: 30px auto 45px;
+	text-align: center;
+	text-transform: ;
+}
